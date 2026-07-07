@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul  7 16:59:35 2026
+# Process ID: 29388
+# Current directory: C:/Users/yassi/Formation_FPGA_Yassine_Aouini/TP2_FPGA_Yassine/TP2_FPGA_Yassine.runs/impl_1
+# Command line: vivado.exe -log counter_unit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source counter_unit.tcl -notrace
+# Log file: C:/Users/yassi/Formation_FPGA_Yassine_Aouini/TP2_FPGA_Yassine/TP2_FPGA_Yassine.runs/impl_1/counter_unit.vdi
+# Journal file: C:/Users/yassi/Formation_FPGA_Yassine_Aouini/TP2_FPGA_Yassine/TP2_FPGA_Yassine.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source counter_unit.tcl -notrace
