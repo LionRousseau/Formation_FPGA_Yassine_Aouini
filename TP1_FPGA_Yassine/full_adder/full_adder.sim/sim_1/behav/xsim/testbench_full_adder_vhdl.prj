@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../../full_adder_yassine.vhd" \
-"../../../../../testbench_full_adder_yassine.vhd" \
-
-# Do not sort compile order
-nosort
