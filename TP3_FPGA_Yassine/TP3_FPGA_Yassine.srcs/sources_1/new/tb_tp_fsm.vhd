@@ -1,87 +1,3 @@
---library ieee;
---use ieee.std_logic_1164.all;
-
---entity tb_tp_fsm is
---end tb_tp_fsm;
-
---architecture behavioral of tb_tp_fsm is
-
---    signal resetn  : std_logic := '1';  -- reset actif à l'état haut pour utilisation du bouton
---    signal clk     : std_logic := '0';
---    signal restart : std_logic := '0';
---    signal led_r   : std_logic;
---    signal led_g   : std_logic;
---    signal led_b   : std_logic;
-
---    -- frequence d'horloge
---    constant hp     : time := 5 ns;      -- demi periode
---    constant period : time := 2*hp;      -- periode de 10 ns (100 MHz)
-
---    component tp_fsm
---        generic ( NB_COUPS_HORLOGE : positive; NB_CLIGN : positive );
---        port (
---            clk     : in  std_logic;
---            resetn  : in  std_logic;
---            restart : in  std_logic;
---            led0_r   : out std_logic;
---            led0_g   : out std_logic;
---            led0_b   : out std_logic
---        );
---    end component;
-
---begin
-
---    -- NB_COUPS_HORLOGE reduit pour une simulation rapide)
---    dut : tp_fsm
---        generic map ( NB_COUPS_HORLOGE => 2000, NB_CLIGN => 3 )
---        port map (
---            clk     => clk,
---            resetn  => resetn,
---            restart => restart,
---            led0_r   => led_r,
---            led0_g   => led_g,
---            led0_b   => led_b
---        );
-
---    -- horloge
---    process
---    begin
---        wait for hp;
---        clk <= not clk;
---    end process;
-
---    -- stimuli
---    process
---    begin
---        resetn <= '1';              -- reset actif (actif haut)
---        wait for period*10;
---        resetn <= '0';              -- relache du reset
-
---        wait for period*40;         -- laisser defiler quelques couleurs
-
---        restart <= '1';             -- appui restart
---        wait for period*2;
---        restart <= '0';
-
---        wait for period*30;
---        wait;
---    end process;
-
---end behavioral;
-
-
-----------------------------------------------------------------------------------
--- TP3 - Machine a etats (FSM)
--- Testbench : tb_tp_fsm
---
--- Verifie, par assertions, les comportements du systeme complet :
---   1) reset      : les LEDs sont eteintes ;
---   2) sequence   : blanc -> rouge -> bleu -> vert -> rouge, 3 clignotements par couleur
---                   (le blanc n'apparait qu'au demarrage : le cycle reboucle sur rouge) ;
---   3) restart    : ramene au blanc en cours de cycle, et le blanc reclignote 3 fois ;
---   4) reset      : teste aussi en cours de fonctionnement.
---
--- NB_COUPS_HORLOGE est reduit a 2 pour la simulation.
 ----------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
@@ -92,7 +8,7 @@ end tb_tp_fsm;
 architecture behavioral of tb_tp_fsm is
 
     signal clk     : std_logic := '0';
-    signal reset   : std_logic := '1';   -- actif haut : on demarre en reset
+    signal reset   : std_logic := '1';   -- actif haut pour fonctionnement sur bouton
     signal restart : std_logic := '0';
     signal led_r   : std_logic;
     signal led_g   : std_logic;
