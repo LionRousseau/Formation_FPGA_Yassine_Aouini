@@ -1,0 +1,12 @@
+*.sh   text eol=lf
+*.vhd  text
+*.tcl  text
+*.py   text
+*.bit  binary
+*.xsa  binary
+*.elf  binary
+*.bin  binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.mp4  binary

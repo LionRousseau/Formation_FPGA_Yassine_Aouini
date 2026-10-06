@@ -1,0 +1,36 @@
+# Projet Vivado regenere par scripts/create_project_v2.tcl
+vivado/
+.Xil/
+*.cache/
+*.runs/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.jou
+*.log
+!preuves/**/*.log
+*.str
+webtalk*
+vivado_pid*
+
+# Espace de travail Vitis
+vitis_ws/
+.metadata/
+RemoteSystemsTempFiles/
+
+# Repertoires de travail GHDL (sim/run_all.sh, sim/run_preuves.sh, sim/run_demo.sh)
+sim/work/
+sim/w_p*/
+*.cf
+*.o
+*.vcd
+*.ghw
+
+# Divers
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
