@@ -1,0 +1,10 @@
+../../src/ieee2008/numeric_std-body.vhdl:1624:7:@0ms:(assertion warning): NUMERIC_STD.">=": metavalue detected, returning FALSE
+/root/v2_work/sim/tb_vga_resync.vhd:79:9:@115ns:(report note): origin_idx = 0
+/root/v2_work/sim/tb_vga_resync.vhd:92:5:@3000100ns:(report note): K (aligne) = 0
+/root/v2_work/sim/tb_vga_resync.vhd:79:9:@4200115ns:(report note): origin_idx = 99999
+/root/v2_work/sim/tb_vga_resync.vhd:79:9:@8400115ns:(report note): origin_idx = 99999
+/root/v2_work/sim/tb_vga_resync.vhd:104:5:@9000115ns:(report note): sans resync, origin_idx = 99999 (decale, OK)
+/root/v2_work/sim/tb_vga_resync.vhd:79:9:@10592135ns:(report note): origin_idx = 0
+/root/v2_work/sim/tb_vga_resync.vhd:79:9:@14792135ns:(report note): origin_idx = 0
+/root/v2_work/sim/tb_vga_resync.vhd:110:5:@18000135ns:(report note): apres resync, origin_idx = 0
+/root/v2_work/sim/tb_vga_resync.vhd:113:5:@18000135ns:(report note): SUCCES: resync realigne l'image (origin_idx = K = 0)

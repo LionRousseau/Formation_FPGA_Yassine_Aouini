@@ -1,0 +1,3 @@
+../../src/ieee2008/numeric_std-body.vhdl:1624:7:@0ms:(assertion warning): NUMERIC_STD.">=": metavalue detected, returning FALSE
+/root/v2_work/sim/tb_vga_display.vhd:103:5:@6000054ns:(report note): === TC-S-01 sim (mire->VGA) : 0 erreur(s), 1280 pixels y=0 verifies, 148799 pixels blanking verifies ===
+/root/v2_work/sim/tb_vga_display.vhd:109:5:@6000054ns:(report note): TC-S-01 sim : SUCCES

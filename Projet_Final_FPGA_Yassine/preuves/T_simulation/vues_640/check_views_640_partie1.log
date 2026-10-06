@@ -1,0 +1,44 @@
+/root/v2_work/sim_full/../rtl/pkg/video_pkg.vhd:17:1:warning: package "video_pkg" was also defined in file "/root/v2_work/rtl/pkg/video_pkg.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/conv/line_buffer.vhd:16:1:warning: entity "line_buffer" was also defined in file "/root/v2_work/rtl/conv/line_buffer.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/conv/window_gen.vhd:27:1:warning: entity "window_gen" was also defined in file "/root/v2_work/rtl/conv/window_gen.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/conv/conv3x3.vhd:51:1:warning: entity "conv3x3" was also defined in file "/root/v2_work/rtl/conv/conv3x3.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/color/rgb_to_luma.vhd:18:1:warning: entity "rgb_to_luma" was also defined in file "/root/v2_work/rtl/color/rgb_to_luma.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/filters/gaussian_filter.vhd:11:1:warning: entity "gaussian_filter" was also defined in file "/root/v2_work/rtl/filters/gaussian_filter.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/filters/laplacian_filter.vhd:15:1:warning: entity "laplacian_filter" was also defined in file "/root/v2_work/rtl/filters/laplacian_filter.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/threshold/binarize.vhd:18:1:warning: entity "binarize" was also defined in file "/root/v2_work/rtl/threshold/binarize.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/tracking/max_tracker.vhd:23:1:warning: entity "max_tracker" was also defined in file "/root/v2_work/rtl/tracking/max_tracker.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/overlay/stream_delay.vhd:28:1:warning: entity "stream_delay" was also defined in file "/root/v2_work/rtl/overlay/stream_delay.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/overlay/overlay.vhd:30:1:warning: entity "overlay" was also defined in file "/root/v2_work/rtl/overlay/overlay.vhd" [-Wlibrary]
+library ieee;
+^
+/root/v2_work/sim_full/../rtl/top/processing_chain.vhd:26:1:warning: entity "processing_chain" was also defined in file "/root/v2_work/rtl/top/processing_chain.vhd" [-Wlibrary]
+library ieee;
+^
+Image d'essai 640x480, seuil 30
+config       description                              pixels faux   points  verdict
+v0_B         overlay (v1.0)                                     0     7982  SUCCES
+v0_A         image brute (v1.0)                                 0     7982  SUCCES
+v1_luma      vue luminance                                      0     7982  SUCCES
+v2_gauss     vue sortie gaussien                                0     7982  SUCCES
+v3_resp      vue reponse laplacien                              0     7982  SUCCES
+v4_mask      vue masque binaire                                 0     7982  SUCCES

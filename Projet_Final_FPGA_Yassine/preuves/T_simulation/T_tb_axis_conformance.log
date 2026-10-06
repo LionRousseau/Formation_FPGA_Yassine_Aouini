@@ -1,0 +1,2 @@
+/root/v2_work/sim/tb_axis_conformance.vhd:176:5:@8846ns:(report note): === TC-U-07 (conformite AXI4-Stream) : 0 erreur(s), 80/80 pixels recus ===
+/root/v2_work/sim/tb_axis_conformance.vhd:181:5:@8846ns:(report note): TC-U-07 : SUCCES

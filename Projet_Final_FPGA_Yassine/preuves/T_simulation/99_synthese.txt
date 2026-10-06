@@ -1,0 +1,24 @@
+BANC                  VERDICT
+tb_axis_conformance    SUCCES
+tb_binarize            SUCCES
+tb_chain               SUCCES
+tb_dma_mm2s            SUCCES
+tb_frontend            SUCCES
+tb_gaussian            SUCCES
+tb_laplacian           SUCCES
+tb_max_tracker         SUCCES
+tb_overlay             SUCCES
+tb_regs_view           SUCCES
+tb_rgb_to_luma         SUCCES
+tb_seq_cmp             SUCCES
+tb_source_mux          SUCCES
+tb_switch_sys          SUCCES
+tb_tpg                 SUCCES
+tb_vga_display         SUCCES
+tb_vga_resync          SUCCES
+tb_vga_timing          SUCCES
+tb_window_gen          SUCCES
+
+CONTRE-EPREUVE (echec attendu)          RESULTAT
+tb_switch_sys_sur_mutant_FA04          ECHEC (defaut detecte)
+tb_vga_display_sur_v1.0                ECHEC (defaut detecte)

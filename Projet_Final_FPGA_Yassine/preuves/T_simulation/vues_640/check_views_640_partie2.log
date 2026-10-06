@@ -1,0 +1,7 @@
+Image d'essai 640x480, seuil 30
+config       description                              pixels faux   points  verdict
+v2_gauss_B   gaussien + overlay                                 0     7982  SUCCES
+v2_byp       gaussien court-circuite (= luminance)              0    10054  SUCCES
+v3_resp_byp  reponse laplacien SANS gaussien                    0    10054  SUCCES
+v0_B_byp     overlay SANS gaussien                              0    10054  SUCCES
+VERDICT GLOBAL : SUCCES

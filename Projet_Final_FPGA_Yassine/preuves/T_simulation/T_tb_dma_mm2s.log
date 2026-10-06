@@ -1,0 +1,2 @@
+/root/v2_work/sim/tb_dma_mm2s.vhd:125:5:@60034ns:(report note): === TC-U-01 (DMA lecture memoire) : 0 erreur(s), trame verifiee = 128 pixels ===
+/root/v2_work/sim/tb_dma_mm2s.vhd:129:5:@60034ns:(report note): TC-U-01 : SUCCES

@@ -1,0 +1,6 @@
+Mesures extraites du chronogramme de tb_vga_timing (horloge 25,175 MHz, periode 39,72 ns)
+Durée d'une ligne                31.776 us  =     800.0 periodes pixel (attendu 800)
+Impulsion hsync (bas)             3.813 us  =      96.0 periodes pixel (attendu 96)
+Zone active d'une ligne          25.421 us  =     640.0 periodes pixel (attendu 640)
+Impulsion vsync (bas)            63.552 us  =    1600.0 periodes pixel (attendu 1600)
+Durée d'une image (525 lignes mesurées)  16682.400 us  =  420000.0 periodes pixel (attendu 420000)

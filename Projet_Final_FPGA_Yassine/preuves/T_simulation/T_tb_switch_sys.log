@@ -1,0 +1,62 @@
+../../src/ieee2008/numeric_std-body.vhdl:1265:7:@0ms:(assertion warning): NUMERIC_STD.">": metavalue detected, returning FALSE
+../../src/ieee2008/numeric_std-body.vhdl:3036:7:@0ms:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee2008/numeric_std-body.vhdl:3036:7:@0ms:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee2008/numeric_std-body.vhdl:3036:7:@0ms:(assertion warning): NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+../../src/ieee2008/numeric_std-body.vhdl:1624:7:@0ms:(assertion warning): NUMERIC_STD.">=": metavalue detected, returning FALSE
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@7265ns:(report note): demarrage (SRC_SEL=0) image 1 : l_autre
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@15265ns:(report note): demarrage (SRC_SEL=0) image 2 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@23265ns:(report note): demarrage (SRC_SEL=0) image 3 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@31265ns:(report note): demarrage (SRC_SEL=0) image 4 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@39265ns:(report note): demarrage (SRC_SEL=0) image 5 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@47265ns:(report note): demarrage (SRC_SEL=0) image 6 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@55265ns:(report note): demarrage (SRC_SEL=0) image 7 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@63265ns:(report note): demarrage (SRC_SEL=0) image 8 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@71265ns:(report note): demarrage (SRC_SEL=0) image 9 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@79265ns:(report note): demarrage (SRC_SEL=0) image 10 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:211:9:@79265ns:(report note): demarrage (SRC_SEL=0) : OK, l_dma exacte des l'image 2 et stable
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@87265ns:(report note): bascule 1 vers mire image 1 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@87885ns:(report note): bascule 1 vers mire image 2 : l_autre
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@95885ns:(report note): bascule 1 vers mire image 3 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@103885ns:(report note): bascule 1 vers mire image 4 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@111885ns:(report note): bascule 1 vers mire image 5 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@119885ns:(report note): bascule 1 vers mire image 6 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@127885ns:(report note): bascule 1 vers mire image 7 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@135885ns:(report note): bascule 1 vers mire image 8 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@143885ns:(report note): bascule 1 vers mire image 9 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@151885ns:(report note): bascule 1 vers mire image 10 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:211:9:@151885ns:(report note): bascule 1 vers mire : OK, l_mire exacte des l'image 3 et stable
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@159035ns:(report note): bascule 2 vers DMA image 1 : l_autre
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@167035ns:(report note): bascule 2 vers DMA image 2 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@175035ns:(report note): bascule 2 vers DMA image 3 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@183035ns:(report note): bascule 2 vers DMA image 4 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@191035ns:(report note): bascule 2 vers DMA image 5 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@199035ns:(report note): bascule 2 vers DMA image 6 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@207035ns:(report note): bascule 2 vers DMA image 7 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@215035ns:(report note): bascule 2 vers DMA image 8 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@223035ns:(report note): bascule 2 vers DMA image 9 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@231035ns:(report note): bascule 2 vers DMA image 10 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:211:9:@231035ns:(report note): bascule 2 vers DMA : OK, l_dma exacte des l'image 2 et stable
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@239035ns:(report note): bascule 3 vers mire image 1 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@239975ns:(report note): bascule 3 vers mire image 2 : l_autre
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@247975ns:(report note): bascule 3 vers mire image 3 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@255975ns:(report note): bascule 3 vers mire image 4 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@263975ns:(report note): bascule 3 vers mire image 5 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@271975ns:(report note): bascule 3 vers mire image 6 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@279975ns:(report note): bascule 3 vers mire image 7 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@287975ns:(report note): bascule 3 vers mire image 8 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@295975ns:(report note): bascule 3 vers mire image 9 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@303975ns:(report note): bascule 3 vers mire image 10 : l_mire
+/root/v2_work/sim/tb_switch_sys.vhd:211:9:@303975ns:(report note): bascule 3 vers mire : OK, l_mire exacte des l'image 3 et stable
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@311125ns:(report note): bascule 4 vers DMA image 1 : l_autre
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@319125ns:(report note): bascule 4 vers DMA image 2 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@327125ns:(report note): bascule 4 vers DMA image 3 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@335125ns:(report note): bascule 4 vers DMA image 4 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@343125ns:(report note): bascule 4 vers DMA image 5 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@351125ns:(report note): bascule 4 vers DMA image 6 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@359125ns:(report note): bascule 4 vers DMA image 7 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@367125ns:(report note): bascule 4 vers DMA image 8 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@375125ns:(report note): bascule 4 vers DMA image 9 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:196:9:@383125ns:(report note): bascule 4 vers DMA image 10 : l_dma
+/root/v2_work/sim/tb_switch_sys.vhd:211:9:@383125ns:(report note): bascule 4 vers DMA : OK, l_dma exacte des l'image 2 et stable
+/root/v2_work/sim/tb_switch_sys.vhd:222:5:@383125ns:(report note): === tb_switch_sys : 0 erreur(s) ===
+/root/v2_work/sim/tb_switch_sys.vhd:224:5:@383125ns:(report note): tb_switch_sys : SUCCES

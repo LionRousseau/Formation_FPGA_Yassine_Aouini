@@ -1,0 +1,7 @@
+TC9 : comptage des points detectes sur les captures de la vue masque (carte)
+Outil : scripts/compter_masque.py (recadrage sur le cadre du pourtour, retour en 640 x 480, seuil a 128)
+16_masque_seuil10.jpg : 16754 pixels detectes (image trouvee en x=0, y=2, 1920 x 1077)
+15_masque_seuil30.jpg : 7878 pixels detectes (image trouvee en x=0, y=2, 1920 x 1077)
+17_masque_seuil60.jpg : 2887 pixels detectes (image trouvee en x=0, y=2, 1920 x 1077)
+Attendu : seuil 10 : 16939   seuil 30 : 7982   seuil 60 : 2923
+Ecarts : seuil 10 -1,1 % ; seuil 30 -1,3 % ; seuil 60 -1,2 % (critere : moins de 10 %)

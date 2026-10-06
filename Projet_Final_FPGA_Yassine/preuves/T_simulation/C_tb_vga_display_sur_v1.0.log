@@ -1,0 +1,21 @@
+../../src/ieee2008/numeric_std-body.vhdl:1624:7:@0ms:(assertion warning): NUMERIC_STD.">=": metavalue detected, returning FALSE
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@855ns:(report warning): TC-S-01 barre incorrecte x=79 got FF0
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@1655ns:(report warning): TC-S-01 barre incorrecte x=159 got 0FF
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@2455ns:(report warning): TC-S-01 barre incorrecte x=239 got 0F0
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@3255ns:(report warning): TC-S-01 barre incorrecte x=319 got F0F
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4055ns:(report warning): TC-S-01 barre incorrecte x=399 got F00
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4855ns:(report warning): TC-S-01 barre incorrecte x=479 got 00F
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@5655ns:(report warning): TC-S-01 barre incorrecte x=559 got 000
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@6455ns:(report warning): TC-S-01 barre incorrecte x=639 got FFF
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4200855ns:(report warning): TC-S-01 barre incorrecte x=79 got FF0
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4201655ns:(report warning): TC-S-01 barre incorrecte x=159 got 0FF
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4202455ns:(report warning): TC-S-01 barre incorrecte x=239 got 0F0
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4203255ns:(report warning): TC-S-01 barre incorrecte x=319 got F0F
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4204055ns:(report warning): TC-S-01 barre incorrecte x=399 got F00
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4204855ns:(report warning): TC-S-01 barre incorrecte x=479 got 00F
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4205655ns:(report warning): TC-S-01 barre incorrecte x=559 got 000
+/root/v2_work/sim/tb_vga_display.vhd:88:15:@4206455ns:(report warning): TC-S-01 barre incorrecte x=639 got FFF
+/root/v2_work/sim/tb_vga_display.vhd:103:5:@6000054ns:(report note): === TC-S-01 sim (mire->VGA) : 16 erreur(s), 1280 pixels y=0 verifies, 148799 pixels blanking verifies ===
+/root/v2_work/sim/tb_vga_display.vhd:106:5:@6000054ns:(assertion failure): TC-S-01 sim : ECHEC
+ghdl:error: assertion failed
+ghdl:error: simulation failed

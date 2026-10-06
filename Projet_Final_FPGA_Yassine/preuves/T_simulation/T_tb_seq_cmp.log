@@ -1,0 +1,3 @@
+/root/v2_work/sim/tb_seq_cmp.vhd:146:5:@200100ns:(report note): trames noires ANCIENNE FSM (D_HOLD) = 9
+/root/v2_work/sim/tb_seq_cmp.vhd:147:5:@200100ns:(report note): trames noires NOUVELLE FSM        = 0
+/root/v2_work/sim/tb_seq_cmp.vhd:150:5:@200100ns:(report note): SUCCES: nouvelle FSM = 0 trame noire (ancienne en avait 9)

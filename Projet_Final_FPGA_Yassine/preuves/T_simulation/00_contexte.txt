@@ -1,0 +1,22 @@
+Date      : 30/09/2026 13:22:45 UTC
+Simulateur: GHDL 4.1.0 (Ubuntu 4.1.0+dfsg-0ubuntu2.1) [Dunoon edition]
+RTL teste : v2 (empreintes MD5 ci-dessous, identiques a soc_tracking/v2/rtl)
+fbd006ba39527e8172550fa4172c1dc0  ./color/rgb_to_luma.vhd
+f95425274f992729b1f154167db2d50e  ./conv/conv3x3.vhd
+8c5e87912f78c3328f976d6dd9f0ad02  ./conv/line_buffer.vhd
+7ed8933e3d81193708862d2a91f575e3  ./conv/window_gen.vhd
+1c6976922f6ff07eacddfa1a144e1921  ./disp/tpg.vhd
+edf4365b80ac6a3b38d42a8920032db1  ./disp/vga_pkg.vhd
+0699fcd1d605bf06d9ffadb45bdbfca6  ./disp/vga_stream_out.vhd
+f03dc2100dce6b88840776af6d6a9c64  ./disp/vga_timing.vhd
+3685b1a594fcbfe7c87f2529a9426d99  ./filters/gaussian_filter.vhd
+ba8bb027bb6ec69b1b6d8a6009096d4a  ./filters/laplacian_filter.vhd
+1415210a4cadc3f1ef92659dd28be65a  ./overlay/overlay.vhd
+d216e68abb3a2e2ff420dc7778b2e4b2  ./overlay/stream_delay.vhd
+d38d06a8e7b7d64866d02979f8a31d75  ./pkg/video_pkg.vhd
+c29c290f280ec51b558f208f87e962a5  ./regbank/axi4lite_regs.vhd
+2953c88b8446e8f0108bb98793cabf1d  ./source/source_mux.vhd
+c27972d2fdf054df87c6ebf9b5af60a5  ./threshold/binarize.vhd
+afb1bb25faabcdcf5d2e962f2447936e  ./top/processing_chain.vhd
+6459c2ef919d82f410bfbe48648801d3  ./top/video_subsystem_step2.vhd
+a3482b88f47e3fe9284fdfcd3699e3e5  ./tracking/max_tracker.vhd

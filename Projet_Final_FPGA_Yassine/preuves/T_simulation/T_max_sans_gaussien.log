@@ -1,0 +1,11 @@
+Maximum de la reponse |laplacien| sans et avec gaussien, simulation RTL v2 (tb_views, 640 x 480), 30/09/2026
+Commande : ghdl -r --std=08 -fsynopsys tb_views -gIMG_W=640 -gIMG_H=480 -gVIEW=0 -gMODE=1 -gBYPASS=<0|1> -gTHR=30 -gIN_FILE=<image>
+Mire : 8 barres + carre orange en x=100..139, y=220..259
+--- raf_byp
+tb_views : trame 1 capturee (307200 pixels), max=484
+--- mire_nobyp
+tb_views : trame 1 capturee (307200 pixels), max=188
+--- mire_byp
+tb_views : trame 1 capturee (307200 pixels), max=502
+--- Rafale avec gaussien : max=182 (T20, check_views, et v1.0 sur carte)
+Modele numpy : Rafale 182 (639,0) / sans gaussien 484 (639,0) ; mire 188 (0,0) / sans gaussien 502 (0,0) pour les 150 positions du carre
